@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "report": "allure generate allure-results --clean",
+    "report:open": "allure open allure-report"
+  },
+  "devDependencies": {
+    "allure": "^3.21.0"
+  }
+}

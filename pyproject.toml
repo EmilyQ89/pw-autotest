@@ -1,0 +1,17 @@
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+exclude = [
+    "venv",
+    ".venv",
+    "node_modules",
+    "allure-report",
+    "allure-results",
+    "test-results",
+]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["pages"]
